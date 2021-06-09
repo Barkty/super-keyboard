@@ -19,6 +19,9 @@ const App = () => {
 		})
 	}
 
+	const spaceHandler = (e) => {
+		
+	} 
 	return (
 		<div className='App'>
 			<div className='login-form'>
@@ -157,7 +160,7 @@ const App = () => {
 					</button>
 				</div>
 				<div className='key-row'>
-					<button className='btn-full' value="space"></button>
+					<button className='btn-full' value="space" onClick={spaceHandler}></button>
 				</div>
 			</div>
 		</div>
